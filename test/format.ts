@@ -1,16 +1,15 @@
-import SentryTransport from "../dist/transport";
-import Winston from "winston";
-import { expect } from "chai";
+import SentryTransport from "../src/transport";
+import * as Winston from "winston";
+import {expect} from "chai";
 
 const sentryFormat = Winston.format((info) => {
-  const { ...extra } = info;
-  const result = {
+  const {...extra} = info;
+  return {
     ...extra,
     tags: {
       formatted: true,
     },
   };
-  return result;
 });
 
 describe("SentryTransport", () => {
