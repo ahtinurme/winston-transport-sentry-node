@@ -1,7 +1,7 @@
 
 # winston-transport-sentry-node
-[![CircleCI](https://circleci.com/gh/aandrewww/winston-transport-sentry-node.svg?style=svg)](https://circleci.com/gh/aandrewww/winston-transport-sentry-node)
-[![node](https://img.shields.io/badge/node-6.4.0+-brightgreen.svg)][node-url]
+[![Github Actions](https://github.com/ahtinurme/winston-transport-sentry-node/actions/workflows/lint-test.yml/badge.svg)](https://circleci.com/gh/aandrewww/winston-transport-sentry-node)
+[![node](https://img.shields.io/badge/node-16.4.0+-brightgreen.svg)][node-url]
 [![winston](https://img.shields.io/badge/winston-3.x+-brightgreen.svg)][winston-url]
 [![license](https://img.shields.io/github/license/aandrewww/winston-transport-sentry-node.svg)][license-url]
 
