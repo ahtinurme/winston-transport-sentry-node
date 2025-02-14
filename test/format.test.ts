@@ -1,5 +1,5 @@
 import expect from 'expect';
-import SentryTransport from "../src/transport";
+import {SentryTransport} from "../src/transport";
 import * as Winston from "winston";
 
 const sentryFormat = Winston.format((info) => {

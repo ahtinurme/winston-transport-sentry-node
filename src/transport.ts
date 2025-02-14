@@ -42,7 +42,7 @@ class ExtendedError extends Error {
   }
 }
 
-export default class SentryTransport extends TransportStream {
+export class SentryTransport extends TransportStream {
   public silent = false;
 
   private levelsMap: SeverityOptions = {};
